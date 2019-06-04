@@ -30,6 +30,7 @@ function downloadImageByURL(url, filePath) {
 
 var owner = process.argv[2]
 var repo = process.argv[3]
+
 if (!repo) {
     console.log("Errors: Missing parameter");
 } else {
